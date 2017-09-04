@@ -16,4 +16,5 @@ mvn clean install -P local -Denvironment=qa -Dapikey=<your api key>
 
 Note: Replace the above <your api key> with your actual api key
 
-After the tests have completed running, the test result can be found at tmdb_service_apitests/target/surefire-reports/emailable-report.html
+After the tests have completed running, the result can be found at 
+tmdb_service_apitests/target/surefire-reports/emailable-report.html
