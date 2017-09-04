@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TMDB Service API Tests" configfailurepolicy="continue" verbose="1" parallel="methods" thread-count="1">
+    <test name="Movies API Tests">
+        <classes>
+            <class name="com.org.service.movies.MovieGetDetailTests"/>
+        </classes>
+    </test>
+</suite>
